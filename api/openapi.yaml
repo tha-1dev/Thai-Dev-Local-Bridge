@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: Thai-Dev Local Bridge API
+  version: 1.0.0
+
+paths:
+  /handshake:
+    post:
+      responses:
+        '200':
+          description: Bridge Ready
+  /capabilities:
+    get:
+      responses:
+        '200':
+          description: Hardware Info
+  /execute:
+    post:
+      responses:
+        '200':
+          description: Command Executed

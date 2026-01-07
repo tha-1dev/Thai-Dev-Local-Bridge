@@ -1,0 +1,7 @@
+{
+  "name": "thai-dev-preflight-plugin",
+  "version": "1.0.0",
+  "description": "Verify Local Bridge & Hardware before repair workflow",
+  "entry": "preflight.js",
+  "required": true
+}
